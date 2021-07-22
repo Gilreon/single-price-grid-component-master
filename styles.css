@@ -126,6 +126,19 @@ ul {
 .main-footer {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    left: 0;
+    right: 0;
     height: 2.5rem;
 }
+
+
+/* Media Query */
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+    .move-container {
+        padding-left: 28%;
+        
+    }
+
+}
+
